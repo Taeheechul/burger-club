@@ -25,7 +25,8 @@ body{
 .jumbotron {
 	padding: 100px;
 	height: 500px;
-	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png)
+	/*background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png)*/
+	background-color:rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron h1{
@@ -124,19 +125,38 @@ ul > li > p {
      padding-top: 40px;
  }
  
- .form-control{
+.form-control{
     margin-bottom: 13px;
     margin-top: 13px;
  }
 
- .nav navbar-nav navbar-right:hover  > li:hover {
+.nav navbar-nav navbar-right:hover  > li:hover {
      text-shadow: 10px 10px 10px black;
  }
- .col-sm-3 > .btn{
+.col-sm-3 > .btn{
      background-color: #D62F01;
      border: 2px solid white;
  }
- .col-sm-3{
+.col-sm-3{
      padding-left:109px;
      padding-right:109px;
  }
+ 
+.carouselText {
+    position: absolute;
+    z-index: 2;
+    color:white;
+    margin-top: 20%;
+} 
+.carouselText h1{
+   font-size: 50px; 
+}
+
+.carouselText p{
+    font-size: 20px;
+    
+}
+
+btn btn-lg btn-primary{
+    background-color: #D62F01;
+}
