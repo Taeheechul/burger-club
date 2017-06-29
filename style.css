@@ -121,6 +121,7 @@ ul > li > p {
  }
  .footer{
      color:white;
+     padding-top: 40px;
  }
  
  .form-control{
@@ -131,4 +132,11 @@ ul > li > p {
  .nav navbar-nav navbar-right:hover  > li:hover {
      text-shadow: 10px 10px 10px black;
  }
- .com-sm-3 > 
+ .col-sm-3 > .btn{
+     background-color: #D62F01;
+     border: 2px solid white;
+ }
+ .col-sm-3{
+     padding-left:109px;
+     padding-right:109px;
+ }

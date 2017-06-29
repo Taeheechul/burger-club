@@ -46,6 +46,9 @@
       <p>Hours:11:30AM–11:30PM</p>
       <p>Phone: (718) 777-7788</p>
       <hr>
+      <p>Address:85 Broad St, 17th Floor New York, NY 10004 </p>
+      <p> Hours: ??????</p>
+      <p> Phone: ?????</p>
     </div>
     
     <!--<div class="col-sm-9">-->
@@ -67,6 +70,21 @@
           map: map
         });
       }
+    </script>
+    <script>
+      var map;
+      function initMap() {
+        var uluru = { lat: 40.704247, lng: -74.011151 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+        
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJWN3KKLlUl6-LcBZVVfGKMamX_KwjbKA&callback=initMap"
     async defer></script>
