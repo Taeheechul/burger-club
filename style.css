@@ -3,7 +3,11 @@
 /*  	background-color: #D62F01;*/
 /*    border-color: #D62F01;*/
 /*}*/
+body{
+    /*font: Rubik;*/
+    font-family: 'Rubik', sans-serif;
 
+}
 .navbar {
 	background-color: #D62F01;
     border-color: #D62F01;
@@ -117,4 +121,17 @@ ul > li > p {
  }
  .footer{
      color:white;
+ }
+ 
+ .form-control{
+    margin-bottom: 13px;
+    margin-top: 13px;
+ }
+
+ .nav navbar-nav navbar-right:hover  > li:hover {
+     text-shadow: 10px 10px 10px black;
+ }
+ .col-sm-3 > .btn{
+     background-color: #D62F01;
+     border: 1px white;
  }
