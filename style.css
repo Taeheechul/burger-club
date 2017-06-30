@@ -3,6 +3,10 @@
 /*  	background-color: #D62F01;*/
 /*    border-color: #D62F01;*/
 /*}*/
+
+@import
+url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
 body{
     /*font: Rubik;*/
     font-family: 'Rubik', sans-serif;
@@ -25,7 +29,7 @@ body{
 .jumbotron {
 	padding: 100px;
 	height: 500px;
-	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png)
+	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png);
 	z-index: 0;
 }
 
@@ -66,12 +70,11 @@ body{
 
 
 .footer {
-
-    background-color: #D62F01;
+   background-color: #D62F01;
    border-color: #D62F01;
    padding-top: 20px;
    padding-bottom: 20px;
-
+   
 }
 
 .sponsor {
@@ -96,7 +99,7 @@ img {
 }
 
 #social li {
-	display:block;
+	display:inline-block;
     float:left;
     list-style:none;
     margin:0;
@@ -105,11 +108,20 @@ img {
     right:50%;
 }
 
-#social ul li img
+li : hover
 {
-    margin: 10px;
-    height: 25px;
+	transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
 }
+
+
+
 
 #location-list{
     margin-top: 75px;
@@ -140,6 +152,7 @@ ul > li > p {
 .col-sm-3{
      padding-left:109px;
      padding-right:109px;
+     
  }
  
 .carouselText {
@@ -166,6 +179,12 @@ ul > li > p {
     line-height: 1.3333333;
     border-radius: 6px;
 }
-a:hover{
-    color: White;
+.navbar-brand:hover {
+    color: white;
+}
+
+li{ 
+    background-color: #D62F01 ;
+    border-color: #D62F01 ;
+    /*box-shadow: 2px 5px 2px white;*/
 }
